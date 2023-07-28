@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: "Work Sans", Arial, Helvetica, sans-serif;
+        /*Medidas Absolutas
+        cm, mm, in, px, pt, pc   (in) Polegada; (pt) Ponto; (pc) Paica
+        
+        Medidas Relativas
+        em (Medida do tamanho atual da fonte; Altura do M maiúsculo), ex(Altura do x minúsculo), vw(View Width; largura da view port(tamanho da tela)),vh (altura do view port), %
+        16px= 1em
+        */
+            font-size: 1em;
+        }
+        h1{
+            font-family: "Work Sans", sans-serif, ;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font
+            -font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em "Work Sans", sans-serif ;
+            /* Isso tudo em APENAS 1 LINHA */
+        }
+        h2{
+            font: bolder 3em "Work Sans", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+   <h1>Teste</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore delectus minima harum voluptas esse recusandae totam quae sapiente ipsum minus non similique quo incidunt deleniti officia vero, sed, rem laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut perferendis culpa, amet placeat totam fugit, enim id ab odio laborum deserunt quos. Corrupti voluptatem quos vel aut suscipit atque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit officiis a culpa iure quis vitae quia expedita, ex fugit adipisci laboriosam eius error quisquam soluta. Neque, odio aliquid? Eaque, at.</p>
+   <h2>Subtítulos do exercício </h2>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo pariatur doloribus sunt perspiciatis alias vero at sed, quia assumenda nesciunt quae sint suscipit esse ipsa non iste adipisci necessitatibus quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptas ipsa beatae asperiores rerum exercitationem maiores ipsum voluptate optio similique, esse quaerat inventore obcaecati quam atque consectetur nesciunt rem. Harum!</p>
+
+</html>
