@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 270px; /*bem responsivo*/
+            max-width: 800px; 
+            /* A imagem quebra, porém o conteúdo não. Limite para não quebrar: 320px */
+            margin: auto; /*deixa no centro independende se a tela estar muito grande ou não*/
+        }
+
+        img{
+            width: 100%; /*Ajusta a imagem para o tamanho do conteúdo*/
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem praesentium aliquam, unde libero animi provident eos excepturi blanditiis molestiae non voluptatum mollitia. Dicta numquam, labore rerum fugit libero eaque voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt necessitatibus, earum, voluptatum sequi voluptatibus culpa natus hic ex blanditiis quisquam quia nemo suscipit perspiciatis. Quam ad corrupti tempore obcaecati reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ullam explicabo consequatur? Illo recusandae at vitae perferendis sint magnam eligendi. Iusto pariatur vel ipsum quos qui obcaecati suscipit cum dolores?</p>
+        <picture>
+            <source media="(max-width: 800px )" srcset="imagens/irina-blok-pq.jpg"> 
+            <!-- Quando ele chegar em 800 px, ele sairá da imagem pequena -->
+            <img src="imagens/irina-blok.jpg" alt="irina blok"></picture>
+            <!-- Importante usar o PICTURE para responsividades em IMAGENS -->
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem praesentium aliquam, unde libero animi provident eos excepturi blanditiis molestiae non voluptatum mollitia. Dicta numquam, labore rerum fugit libero eaque voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt necessitatibus, earum, voluptatum sequi voluptatibus culpa natus hic ex blanditiis quisquam quia nemo suscipit perspiciatis. Quam ad corrupti tempore obcaecati reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ullam explicabo consequatur? Illo recusandae at vitae perferendis sint magnam eligendi. Iusto pariatur vel ipsum quos qui obcaecati suscipit cum dolores?</p>
+    </main>
+</body>
+</html>
