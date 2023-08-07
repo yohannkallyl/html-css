@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    /* faz com que as primeiras letras, de todas as outras maiúsculas, sejam um pouco maiores */
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    /* Pois, caso diminua, ele já adapta na tela */
+    padding-left: 30px ;
+    line-height: 2em;
+    /* Altura das linhas para facilitar na leitura do cordel */
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.233);
+    width: 400px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
