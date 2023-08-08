@@ -64,7 +64,7 @@ section{
     /* Altura das linhas para facilitar na leitura do cordel */
 
     font-family: var(--fonte3);
-    font-size:3.5vw;
+    font-size:3.8vw;
 }
 
 .normal{
@@ -75,13 +75,30 @@ section{
 .imagem{
     background-color: rgb(61, 61, 61);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
+    background-attachment: fixed;
 }
 
 .imagem p{
-    background-color: rgba(0, 0, 0, 0.233);
+    background-color: rgba(0, 0, 0, 0.329);
     width: 400px;
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center ;
+    background-size: cover;
+    
+    
+    
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+   
 }
 
 
