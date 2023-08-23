@@ -27,6 +27,19 @@
         color: white;
       }
 
+      tbody tr:nth-child(even){
+        background-color: brown;
+        font-weight: bold ;
+      }
+      
+      /* even - PAR
+      odd - ÍMPAR */
+      
+      tbody tr:nth-child(odd){
+        /* Essa pseudoclasse permite utilizar o efeito "zebrado". Nesse caso, eu coloquei de 2 em 2. Por isso, o "2n" */
+        background-color: lightgrey;
+      }
+
       caption{
         font-size: 1.5em;
         font-weight: bold;
