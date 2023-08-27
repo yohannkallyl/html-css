@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+
+th{
+    border: 1px solid black;
+    padding: 7px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+th:hover{
+    text-decoration: underline;
+}
+
+
+
+#header-body{
+    background-color: white;
+    color: black;
+}
+
+td{
+    border: 1px solid black;
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+td:hover{
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
