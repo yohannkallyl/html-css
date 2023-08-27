@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+
+caption{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+th{
+    border: 1px solid black;
+    text-align: center;
+}
+
+th:hover{
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td:hover{
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
